@@ -1,7 +1,7 @@
 f = open('sample.txt', 'r', encoding='UTF-8')
 
-date = f.read()
-print(date)
-print(date.count('の'))
+data = f.read()
+print(data)
+print(data.count('の'))
 
 f.close()
